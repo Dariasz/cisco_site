@@ -38,7 +38,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootstrap-sass', '~> 3.3.6'
 
 gem "animate-rails"
-
 gem 'bootswatch-rails'
 
 
