@@ -1,4 +1,19 @@
 <div class="container">
-  <h1>Pages#index</h1>
-  <p>Find me in app/views/pages/index.html.erb</p>
+  <div class="row">
+    <h1 class="text-center">Welcome. <br/><br/> This page is dedicated to everyone who has a web lessons in ZSEEIM.
+      <br/> There are a lot of questions which will help you with your trouble. </h1>
+    <h2 class="text-center">Choose wisely:</h2>
+    <div class="col-lg-6">
+      <br/>
+      <%= link_to windows_path do %>
+          <%= image_tag 'Xplogo.jpg', width: "100%" %>
+      <% end %>
+    </div>
+    <div class="col-lg-6">
+      <br/>
+      <%= link_to linux_path do %>
+          <%= image_tag 'Tux.png', width: "90%" %>
+      <% end %>
+    </div>
+  </div>
 </div>
