@@ -15,15 +15,18 @@
         <li><a href="/windows">Windows</a></li>
         <li><a href="/linux">Linux</a></li>
         <li><a href="/trivias">Trivias</a></li>
-
       </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Login</a></li>
-      </ul>
-
+      <% !unless user_signed_in? %>
+          <%= render 'layouts/login' %>
+      <% else %>
+          <ul class="nav navbar-nav navbar-right">
+            <li>
+              <div class="text-center" style="padding-top: 1.1em; color: white;">Logged
+                as:&nbsp <%= current_user.nickname %></div>
+            </li>
+            <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
+          </ul>
+      <% end %>
       <form class="navbar-form navbar-right" role="search">
         <div class="form-group">
           <input class="form-control" placeholder="Search" type="text">
