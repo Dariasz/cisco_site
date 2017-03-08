@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div class="text-center">
 <p>
   <strong>Subject:</strong>
   <%= @lesson.subject %>
@@ -11,9 +11,15 @@
 </p>
 
 <p>
+  <strong>System:</strong>
+  <%= @lesson.system %>
+</p>
+
+<p>
   <strong>Pdf:</strong>
   <%= @lesson.pdf %>
 </p>
 
 <%= link_to 'Edit', edit_lesson_path(@lesson) %> |
 <%= link_to 'Back', lessons_path %>
+</div>

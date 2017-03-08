@@ -1,5 +1,5 @@
 <p id="notice"><%= notice %></p>
-
+<div class="text-center">
 <h1>Lessons</h1>
 
 <table>
@@ -7,6 +7,7 @@
     <tr>
       <th>Subject</th>
       <th>Descrpition</th>
+      <th>System</th>
       <th>Pdf</th>
       <th colspan="3"></th>
     </tr>
@@ -17,6 +18,7 @@
       <tr>
         <td><%= lesson.subject %></td>
         <td><%= lesson.descrpition %></td>
+        <td><%= lesson.system %></td>
         <td><%= lesson.pdf %></td>
         <td><%= link_to 'Show', lesson %></td>
         <td><%= link_to 'Edit', edit_lesson_path(lesson) %></td>
@@ -29,3 +31,4 @@
 <br>
 
 <%= link_to 'New Lesson', new_lesson_path %>
+</div>

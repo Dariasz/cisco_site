@@ -1,6 +1,6 @@
 class LessonsController < ApplicationController
   before_action :set_lesson, only: [:show, :edit, :update, :destroy]
-
+  expose :system_categories, -> {["Windows","Linux"]}
   # GET /lessons
   # GET /lessons.json
   def index
@@ -69,6 +69,6 @@ class LessonsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def lesson_params
-      params.require(:lesson).permit(:subject, :descrpition, :pdf)
+      params.require(:lesson).permit(:subject, :descrpition, :system, :pdf)
     end
 end

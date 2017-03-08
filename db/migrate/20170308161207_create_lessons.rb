@@ -3,6 +3,7 @@ class CreateLessons < ActiveRecord::Migration[5.0]
     create_table :lessons do |t|
       t.string :subject
       t.string :descrpition
+      t.string :system
       t.string :pdf
 
       t.timestamps

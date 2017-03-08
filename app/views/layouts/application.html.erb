@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>CiscoSite</title>
-    <%= csrf_meta_tags %>
+<head>
+  <title>CiscoSite</title>
+  <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  </head>
+  <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
 
-  <body>
-    <%= render 'layouts/navbar'%>
-    <%= render 'layouts/header'%>
-   <%= yield %>
-    <%= render 'layouts/footer'%>
+<body>
+<%= render 'layouts/navbar' %>
+<%= render 'layouts/header' %>
+<div class="container">
+  <div class="row">
+    <%= yield %>
+  </div>
+</div>
+<%= render 'layouts/footer' %>
 
-  </body>
+</body>
 </html>
