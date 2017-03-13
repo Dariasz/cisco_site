@@ -1,6 +1,6 @@
 class LessonsController < ApplicationController
   before_action :set_lesson, only: [:show, :edit, :update, :destroy]
-  expose :system_categories, -> {["Windows","Linux"]}
+  expose :system_categories, -> {["Windows","Linux","Trivias"]}
   # GET /lessons
   # GET /lessons.json
   def index

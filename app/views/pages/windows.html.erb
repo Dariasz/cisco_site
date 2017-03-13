@@ -1,4 +1,41 @@
-<div class="container text-center">
-  <h2>Here. You can find all of questions associated with a Windows</h2>
+<div class="container">
+  <h2>Here. You can find all of questions associated with a Windows.</h2>
+
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <input type="search" id="search" value="" class="form-control" placeholder="Search using Fuzzy searching">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <table class="table" id="table">
+        <thead>
+        <tr>
+          <th>Subject</th>
+          <th></th>
+          <th>Third column</th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @lessons.each do |lesson| %>
+            <tr>
+              <th>
+                <%= lesson.subject %>
+
+              </th>
+            </tr>
+
+            <!--<span class="badge">14</span>-->
+
+        <% end %>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+  </div>
+
 
 </div>
+
+
+<script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
