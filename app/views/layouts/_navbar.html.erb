@@ -24,6 +24,9 @@
               <div class="text-center" style="padding-top: 1.1em; color: white;">Logged
                 as:&nbsp <%= current_user.nickname %></div>
             </li>
+            <% if current_user.nickname == "admin" %>
+                <li><%= link_to 'Add lesson', new_lesson_path %></li>
+            <% end %>
             <li><%= link_to 'Sign out', destroy_user_session_path, :method => :delete %></li>
           </ul>
       <% end %>
