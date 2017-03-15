@@ -3,24 +3,6 @@
   <strong>Subject:</strong>
   <%= @lesson.subject %>
 </h1>
-
-<hr class="em">
-<style>
-  .em{
-    display: block;
-    position: relative;
-    padding: 0;
-    margin: 8px auto;
-    height: 10px;
-    width: 100%;
-    max-height: 10px;
-    font-size: 1px;
-    line-height: 10px;
-    clear: both;
-    border: none;
-    border-top: 4px solid dodgerblue;
-  }
-</style>
 <h2>
   <h3 class="text-center"><b>Descrpition:</b></h3>
   <%= @lesson.descrpition.html_safe %>
@@ -30,10 +12,9 @@
 <% if signed_in? %>
     <p>
       <strong>Linkt do pobrania:</strong>
-      <%= @lesson.pdf %>
+      <%= @lesson.pdf  %>
     </p>
 <% end %>
 <div class="text-right">
-  <%= link_to 'Edit', edit_lesson_path(@lesson) %> |
-  <%= link_to 'Back', lessons_path %>
+  <%= link_to 'Edit', edit_lesson_path(@lesson) %>
 </div>
