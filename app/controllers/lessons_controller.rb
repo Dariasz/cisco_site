@@ -1,6 +1,6 @@
 class LessonsController < ApplicationController
   before_action :set_lesson, only: [:show, :edit, :update, :destroy]
-  expose :system_categories, -> {["Windows","Linux","Trivias"]}
+  expose :system_categories, -> {["Windows","Linux","Others"]}
   # GET /lessons
   # GET /lessons.json
   def index
@@ -56,7 +56,7 @@ class LessonsController < ApplicationController
   def destroy
     @lesson.destroy
     respond_to do |format|
-      format.html { redirect_to lessons_url, notice: 'Lesson was successfully destroyed.' }
+      format.html { redirect_to windows_url, notice: 'Lesson was successfully destroyed.' }
       format.json { head :no_content }
     end
   end

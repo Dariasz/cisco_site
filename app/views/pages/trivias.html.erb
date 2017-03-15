@@ -1,0 +1,53 @@
+<div class="container">
+  <h2 class="text-center">Here. You can find all trivias.</h2><br/>
+
+  <div class="row">
+    <div class="col-lg-4 col-lg-offset-4">
+      <input type="search" id="search" value="" class="form-control" placeholder="Search using Fuzzy searching">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-lg-12">
+      <table class="table" id="table">
+        <thead>
+        <tr>
+          <th class="col-lg-8">Subject</th>
+          <th></th>
+          <th></th>
+        </tr>
+        </thead>
+        <tbody>
+        <% @lessons.each do |lesson| %>
+            <% if lesson.system == "Trivias" %>
+                <tr>
+                  <td>
+                    <%= link_to lesson do %>
+                        <%= lesson.subject %>
+                    <% end %>
+                  </td>
+                  <td></td>
+                  <% if signed_in? %>
+                      <td class="text-right">
+                        <span class="glyphicon glyphicon-floppy-open" aria-hiden="true"></span>
+                        <%= link_to lesson, method: :delete, data: {confirm: "Are you sure?"} do %>
+                            <span class="glyphicon glyphicon-remove" aria-hiden="true"></span>
+                        <% end %>
+
+
+                      </td>
+
+                  <% end %>
+                </tr>
+
+            <% end end %>
+        </tbody>
+      </table>
+      <hr>
+    </div>
+  </div>
+
+
+</div>
+
+
+<script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
