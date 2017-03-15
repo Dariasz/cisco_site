@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da4d121a-045e-4e97-b0f8-910f46edb2e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/pages/_singlelesson.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lessons/_form.html.erb" afterPath="$PROJECT_DIR$/app/views/lessons/_form.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lessons/index.html.erb" afterPath="$PROJECT_DIR$/app/views/lessons/index.html.erb" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/lessons/show.html.erb" afterPath="$PROJECT_DIR$/app/views/lessons/show.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/pages/windows.html.erb" afterPath="$PROJECT_DIR$/app/views/pages/windows.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/migrate/20170308161207_create_lessons.rb" afterPath="$PROJECT_DIR$/db/migrate/20170308161207_create_lessons.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/schema.rb" afterPath="$PROJECT_DIR$/db/schema.rb" />
     </list>
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
@@ -58,8 +52,18 @@
       <file leaf-file-name="show.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/views/lessons/show.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+            <state relative-caret-position="360">
+              <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.min.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="3859" column="0" lean-forward="true" selection-start-line="3859" selection-start-column="0" selection-end-line="3859" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -99,7 +103,6 @@
         <option value="$PROJECT_DIR$/app/views/lessons/new.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/_variable.scss" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/lessons.scss" />
         <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css.scss" />
         <option value="$PROJECT_DIR$/app/views/layouts/_navbar.html.erb" />
@@ -114,6 +117,7 @@
         <option value="$PROJECT_DIR$/app/views/lessons/_form.html.erb" />
         <option value="$PROJECT_DIR$/app/views/lessons/index.html.erb" />
         <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
+        <option value="$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css" />
         <option value="$PROJECT_DIR$/app/views/lessons/show.html.erb" />
       </list>
     </option>
@@ -500,7 +504,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="HbShouldOpenHtmlAsHb" value="" />
-    <property name="SearchEverywhereHistoryKey" value="app&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/application.html.erb&#10;lesson.rb&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/lessons_controller.rb&#10;sche&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/schema.rb&#10;pages&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/pages_controller.rb&#10;wind&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;wi&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;_nav&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;rou&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;con&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/lessons_controller.rb&#10;_na&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;_lo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;_form&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/lessons/_form.html.erb&#10;Lesson.r&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/lesson.rb&#10;uplo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/uploaders/attachment_uploader.rb&#10;User&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/user.rb&#10;User.rb&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/migrate/20170302110633_devise_create_users.rb&#10;Gem&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;windows&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;_login&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;_l&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;rout&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;ap&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/application_controller.rb&#10;data&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/database.yml&#10;_n&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;nav&#9;null&#9;null&#10;heade&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_header.html.erb&#10;application&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/assets/stylesheets/application.css.scss&#10;foo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;index&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/index.html.erb&#10;_foo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;gem&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;footer&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;routes&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;application.js&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/assets/javascripts/application.js&#10;create&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/migrate/20170228110734_create_lessons.rb&#10;lesson&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/lesson.rb&#10;lessons&#9;null&#9;null&#10;database.&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/database.yml&#10;GemFil&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;config&#9;null&#9;null" />
+    <property name="SearchEverywhereHistoryKey" value="divider&#9;null&#9;null&#10;app&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/application.html.erb&#10;lesson.rb&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/lessons_controller.rb&#10;sche&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/schema.rb&#10;pages&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/pages_controller.rb&#10;wind&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;wi&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;_nav&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;rou&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;con&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/lessons_controller.rb&#10;_na&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;_lo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;_form&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/lessons/_form.html.erb&#10;Lesson.r&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/lesson.rb&#10;uplo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/uploaders/attachment_uploader.rb&#10;User&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/user.rb&#10;User.rb&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/migrate/20170302110633_devise_create_users.rb&#10;Gem&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;windows&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/windows.html.erb&#10;_login&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;_l&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_login.html.erb&#10;rout&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;ap&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/controllers/application_controller.rb&#10;data&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/database.yml&#10;_n&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_navbar.html.erb&#10;nav&#9;null&#9;null&#10;heade&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_header.html.erb&#10;application&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/assets/stylesheets/application.css.scss&#10;foo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;index&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/pages/index.html.erb&#10;_foo&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;gem&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;footer&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/views/layouts/_footer.html.erb&#10;routes&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/routes.rb&#10;application.js&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/assets/javascripts/application.js&#10;create&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/db/migrate/20170228110734_create_lessons.rb&#10;lesson&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/app/models/lesson.rb&#10;lessons&#9;null&#9;null&#10;database.&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/config/database.yml&#10;GemFil&#9;FILE&#9;file:///home/dariasz/Desktop/cisco_site/Gemfile&#10;config&#9;null&#9;null" />
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="js.eslint.eslintPackage" value="" />
     <property name="js-jscs-nodeInterpreter" value="/usr/bin/node" />
@@ -754,12 +758,12 @@
       <workItem from="1489569338067" duration="895000" />
       <workItem from="1489572596488" duration="1519000" />
       <workItem from="1489580175977" duration="2718000" />
-      <workItem from="1489583156259" duration="1123000" />
+      <workItem from="1489583156259" duration="2252000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43686000" />
+    <option name="totallyTimeSpent" value="44815000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="24" width="1920" height="1056" extended-state="6" />
@@ -946,14 +950,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15642">
           <caret line="869" column="53" lean-forward="false" selection-start-line="869" selection-start-column="53" selection-end-line="869" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1150,10 +1146,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="3859" column="0" lean-forward="true" selection-start-line="3859" selection-start-column="0" selection-end-line="3859" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/lessons/show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="23" lean-forward="false" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+        <state relative-caret-position="360">
+          <caret line="20" column="37" lean-forward="false" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
           <folding />
         </state>
       </provider>
