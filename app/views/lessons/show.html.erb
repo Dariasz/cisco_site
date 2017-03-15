@@ -1,25 +1,23 @@
-<p id="notice"><%= notice %></p>
-<div class="text-center">
-<p>
+<p class="text-center" id="notice"><%= notice %></p>
+<h1 class="text-center">
   <strong>Subject:</strong>
   <%= @lesson.subject %>
-</p>
+</h1>
 
-<p>
-  <strong>Descrpition:</strong>
-  <%= @lesson.descrpition %>
-</p>
+<h2 >
+  <h3 class="text-center">
+    <b>Descrpition:</b></h3>
+  <%= @lesson.descrpition.html_safe %>
+</h2>
 
-<p>
-  <strong>System:</strong>
-  <%= @lesson.system %>
-</p>
 
-<p>
-  <strong>Pdf:</strong>
-  <%= @lesson.pdf %>
-</p>
-
+<% if signed_in? %>
+    <p>
+      <strong>Linkt do pobrania:</strong>
+      <%= @lesson.pdf %>
+    </p>
+<% end %>
+<div class="text-right">
 <%= link_to 'Edit', edit_lesson_path(@lesson) %> |
 <%= link_to 'Back', lessons_path %>
 </div>

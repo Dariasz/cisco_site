@@ -3,7 +3,7 @@
 
     <div class="form-inputs">
       <%= f.input :subject %>
-      <%= f.input :descrpition, as: :wysihtml5 %>
+      <%= f.input   :descrpition, as: :wysihtml5, wysihtml5: {'toolbar': {'color': true}} %>
       <%= f.input :system, collection: system_categories, label: "Choose system" %>
       <%= f.input :pdf, label: "Add your attachament" %>
     </div>
