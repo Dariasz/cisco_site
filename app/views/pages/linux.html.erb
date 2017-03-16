@@ -1,5 +1,5 @@
 <div class="container">
-  <h2 class="text-center">Here. You can find all of questions associated with a Linux.</h2><br/>
+  <h2 class="text-center">Here. You can find all of questions associated with a Windows.</h2><br/>
 
   <div class="row">
     <div class="col-lg-4 col-lg-offset-4">
@@ -28,12 +28,22 @@
                   <td></td>
                   <% if signed_in? %>
                       <td class="text-right">
-                        <span class="glyphicon glyphicon-floppy-open" aria-hiden="true"></span>
-                        <%= link_to lesson, method: :delete, data: {confirm: "Are you sure?"} do %>
-                            <span class="glyphicon glyphicon-remove" aria-hiden="true"></span>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-arrow-right" aria-hiden="true"></span>
+                        </button>
+                        <button type="button" class="btn btn-default" aria-label="Left Align">
+                          <span class="glyphicon glyphicon-floppy-open" aria-hiden="true"></span>
+                        </button>
+                        <%= link_to edit_lesson_path(lesson) do %>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                              <span class="glyphicon glyphicon-cog" aria-hiden="true"></span>
+                            </button>
                         <% end %>
-
-
+                        <%= link_to lesson, method: :delete, data: {confirm: "Are you sure?"} do %>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                              <span class="glyphicon glyphicon-remove" aria-hiden="true"></span>
+                            </button>
+                        <% end %>
                       </td>
 
                   <% end %>
@@ -49,5 +59,6 @@
 
 </div>
 
-
 <script src="//rawgithub.com/stidges/jquery-searchable/master/dist/jquery.searchable-1.0.0.min.js"></script>
+
+
