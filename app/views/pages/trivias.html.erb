@@ -28,12 +28,16 @@
                   <td></td>
                   <% if signed_in? %>
                       <td class="text-right">
-                        <button type="button" class="btn btn-default" aria-label="Left Align">
-                          <span class="glyphicon glyphicon-arrow-right" aria-hiden="true"></span>
-                        </button>
-                        <button type="button" class="btn btn-default" aria-label="Left Align">
-                          <span class="glyphicon glyphicon-floppy-open" aria-hiden="true"></span>
-                        </button>
+                        <%= link_to lesson do %>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                              <span class="glyphicon glyphicon-arrow-right" aria-hiden="true"></span>
+                            </button>
+                        <% end %>
+                        <%= link_to lesson.pdf_url, download: lesson.subject do %>
+                            <button type="button" class="btn btn-default" aria-label="Left Align">
+                              <span class="glyphicon glyphicon-floppy-open" aria-hiden="true"></span>
+                            </button>
+                        <% end %>
                         <%= link_to edit_lesson_path(lesson) do %>
                             <button type="button" class="btn btn-default" aria-label="Left Align">
                               <span class="glyphicon glyphicon-cog" aria-hiden="true"></span>
@@ -46,7 +50,8 @@
                         <% end %>
                       </td>
 
-                  <% end %>
+
+                <% end %>
                 </tr>
 
             <% end end %>
